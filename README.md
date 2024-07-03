@@ -42,9 +42,9 @@ you can access to my project through git clone
 
 ## Features ⭐
 
--User-Friendly Interface: Clean and modern design with a simple input field for entering telephone numbers.Clear and concise error messages to guide users when incorrect formats are entered.<br>
--Real-Time Validation: Uses JavaScript to validate the telephone number as the user types.Provides immediate feedback to the user, indicating whether the entered number is valid or not.<br>
--Responsive Design: Fully responsive layout using CSS media queries.Ensures optimal user experience on all screen sizes, from large desktop monitors to small mobile screens.<br>
+- User-Friendly Interface: Clean and modern design with a simple input field for entering telephone numbers.Clear and concise error messages to guide users when incorrect formats are entered.<br>
+- Real-Time Validation: Uses JavaScript to validate the telephone number as the user types.Provides immediate feedback to the user, indicating whether the entered number is valid or not.<br>
+- Responsive Design: Fully responsive layout using CSS media queries.Ensures optimal user experience on all screen sizes, from large desktop monitors to small mobile screens.<br>
 Visual Feedback: Color-coded input field borders to indicate valid (green) or invalid (red) telephone numbers.Subtle animations to enhance user interaction and experience.
 
 ## Author 👩‍💻
