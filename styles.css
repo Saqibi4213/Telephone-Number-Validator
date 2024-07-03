@@ -108,13 +108,13 @@ button:hover {
   button {
     padding: 10px 20px;
     font-size: 0.9em;
-}
+  }
 
   #results-div {
     font-size: 1.2em;
   }
 }
- 
+
 @media (max-width: 480px) {
   h1 {
     font-size: 1.5em;
