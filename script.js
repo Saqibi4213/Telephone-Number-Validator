@@ -19,8 +19,8 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
     const isValid = validPatterns.some((pattern) => pattern.test(phoneNumber));
     const resultText = isValid
-    ? `Valid US number: ${phoneNumber}`
-    : `Invalid US number: ${phoneNumber}`;
+      ? `Valid US number: ${phoneNumber}`
+      : `Invalid US number: ${phoneNumber}`;
     resultsDiv.textContent = resultText;
   });
   clearBtn.addEventListener('click', () => {
