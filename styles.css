@@ -77,12 +77,13 @@ button:hover {
   min-height: 30px;
   animation: fadeInUp 1s ease-in-out;
 }
- 
- @keyframes fadeInUp {
+
+@keyframes fadeInUp {
   from {
     opacity: 0;
     transform: translateY(20px);
   }
+
   to {
     opacity: 1;
     transform: translateY(0);
@@ -107,8 +108,8 @@ button:hover {
   button {
     padding: 10px 20px;
     font-size: 0.9em;
-  }
-  
+}
+
   #results-div {
     font-size: 1.2em;
   }
@@ -221,7 +222,7 @@ button:hover {
     width: 100%;
     padding: 10px;
   }
- 
+
   h1 {
     font-size: 1em;
   }
@@ -240,4 +241,3 @@ button:hover {
     font-size: 0.8em;
   }
 }
-
