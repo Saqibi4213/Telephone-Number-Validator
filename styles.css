@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    background: url('number.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #677903;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  .container {
+    background: rgba(60, 66, 104, 0.267);
+    padding: 40px;
+    border-radius: 45px;
+    box-shadow: 0 10px 25px rgba(5, 123, 170, 0.575);
+    width: 80%;
+    max-width: 500px;
+  }
+  
+  h1 {
+    margin-bottom: 30px;
+    font-size: 2.5em;
+    color: #583d02;
+  }
+  
+  .input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  input {
+    padding: 15px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 20px;
+    border: 3px solid #583d02;
+    outline: none;
+    font-size: 1em;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  input:focus {
+    border-color: #677903;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 10px;
+  }
+  
+  button {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 18px;
+    background-color: #6e4c01c7;
+    color: #110c01;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #576263;
+    transform: translateY(-2px);
+  }
+
+  #results-div {
+    margin-top: 30px;
+    font-size: 1.5em;
+    color: #221701;
+    min-height: 30px;
+    animation: fadeInUp 1s ease-in-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 90%;
+      padding: 30px;
+    }
+  
+    h1 {
+      font-size: 2em;
+    }
+  
+    input {
+      padding: 10px;
+      font-size: 0.9em;
+    }
+  
+    button {
+      padding: 10px 20px;
+      font-size: 0.9em;
+    }
+  
+    #results-div {
+      font-size: 1.2em;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    .button-group {
+      flex-direction: column;
+    }
+  
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 0.8em;
+    }
+  }
+
+  @media (max-width: 480px) and (min-width: 400px) {
+    .container {
+      width: 90%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    input {
+      padding: 10px;
+      font-size: 0.9em;
+    }
+  
+    .button-group {
+      flex-direction: row;
+      gap: 8px;
+    }
+  
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 0.8em;
+    }
+  
+    #results-div {
+      font-size: 1em;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .container {
+      width: 95%;
+      padding: 20px;
+    }
+  
+    h1 {
+      font-size: 1.3em;
+    }
+  
+    input {
+      padding: 8px;
+      font-size: 0.8em;
+    }
+  
+    .button-group {
+      flex-direction: row;
+      gap: 8px;
+    }
+
+    button {
+      padding: 8px 15px;
+      font-size: 0.8em;
+    }
+  
+    #results-div {
+      font-size: 1em;
+    }
+  }
+  
+  @media (max-width: 320px) {
+    .container {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.2em;
+    }
+  
+    input {
+      padding: 6px;
+      font-size: 0.7em;
+    }
+  
+    button {
+      padding: 6px 10px;
+      font-size: 0.7em;
+    }
+  
+    #results-div {
+      font-size: 0.9em;
+    }
+  }
+  
+  @media (max-width: 240px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 1em;
+    }
+  
+    input {
+      padding: 4px;
+      font-size: 0.6em;
+    }
+  
+    button {
+      padding: 4px 8px;
+      font-size: 0.6em;
+    }
+  
+    #results-div {
+      font-size: 0.8em;
+    }
+  }
+
